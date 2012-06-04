@@ -9,7 +9,7 @@ package com.j.y.daddy.F50RG;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.DataOutputStream;
+import java.io.DataOutputStream;;;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -62,7 +62,7 @@ public class Common {
 	public boolean CheckPhone() {
 		boolean rstFlag = true;
 		
-		//XT720 �� üũ����!
+		//XT720 ¸¸ Ã¼Å©ÇÏÀÚ!
 		if(!currActivity.getString(R.string.Build_MODEL).equalsIgnoreCase(Build.MODEL)) rstFlag = false;
 		//if(!currActivity.getString(R.string.Build_ID).equalsIgnoreCase(Build.ID)) {
 		//	//IS-ROM Pass
@@ -72,7 +72,7 @@ public class Common {
 		return rstFlag;
 	}
 	
-	//SDī�� ������� üũ
+	//SDÄ«µå °¡¿ë»óÅÂ Ã¼Å©
 	public boolean CheckSD() {
 		return (new StorageStatus().externalMemoryAvailable());
 	}
