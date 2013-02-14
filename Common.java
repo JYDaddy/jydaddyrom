@@ -16,8 +16,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import com.j.y.daddy.F50RG.R;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,6 +29,7 @@ import android.util.Log;
 public class Common {
 	
 	private static Context currActivity = null;
+  private static int ssss= 0;
 	
 	public String VersionStr = "";
 	public String PkgName = "";
