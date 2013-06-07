@@ -73,8 +73,7 @@ public class StorageStatus {
                         commaOffset -= 3;
                 }
         
-                if (suffix != null)
-                        resultBuffer.append(suffix);
+                if (suffix != null) resultBuffer.append(suffix);
                 return resultBuffer.toString();
         }
 }
