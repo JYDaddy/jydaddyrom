@@ -63,10 +63,10 @@ public class Common {
 		
 		//XT720 ¸¸ Ã¼Å©ÇÏÀÚ!
 		if(!currActivity.getString(R.string.Build_MODEL).equalsIgnoreCase(Build.MODEL)) rstFlag = false;
-		//if(!currActivity.getString(R.string.Build_ID).equalsIgnoreCase(Build.ID)) {
+		if(!currActivity.getString(R.string.Build_ID).equalsIgnoreCase(Build.ID)) {
 		//	//IS-ROM Pass
 		//	if(!currActivity.getString(R.string.Build_ID_ISROM).equalsIgnoreCase(Build.ID)) rstFlag = false;
-		//}
+		}
 		
 		return rstFlag;
 	}
